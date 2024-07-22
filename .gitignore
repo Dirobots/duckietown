@@ -1,0 +1,42 @@
+# ROS2 and colcon build files
+build/
+install/
+log/
+
+# Ignore python cache files
+**/__pycache__/
+**/*.py[cod]
+
+# Ignore python virtual environments
+env/
+.venv/
+venv/
+
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore other OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.out
+
+# Ignore package specific files
+**/package.xml
+**/colcon.pkg
+
+# Ignore test result files
+test_results/

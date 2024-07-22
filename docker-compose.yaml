@@ -1,0 +1,10 @@
+services:
+  ros2_workspace:
+    container_name: ros2_workspace
+    image: dustynv/ros:humble-ros-base-l4t-r32.7.1
+    volumes:
+      - ./workspace:/workspace
+    command: "/bin/bash"
+    tty: true
+    stdin_open: true
+    
